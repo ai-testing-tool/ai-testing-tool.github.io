@@ -1,0 +1,17 @@
+title: Testing tool
+description: >-
+  Reduce testing effort in Jira, visible to QA and Dev. Rovo drafts, you confirm,
+  CI lands in Jira.
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .gitignore
