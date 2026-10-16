@@ -15,9 +15,15 @@ You do not install the agent separately. The Rovo agent ships with the same app.
 ## Open Testing tool in a project
 
 1. Open a Jira software project where you want test management.
-2. In the project navigation, open **Testing tool** (the app project page).
-3. If issue types are not ready, you will see onboarding instead of Requirements / Test design. Continue with [Make a project TMS-ready](./make-project-tms-ready.md).
-4. When types are ready, click **Launch Testing tool For Jira** (or you land directly in the hub).
+2. If **Testing tool** is not already in the project navigation, open the **+** menu at the end of the nav tabs, choose **Testing tool** under **Apps**, then **Add to navigation**.
+
+![Add Testing tool to project navigation from the Apps menu](./media/install-and-open--add-to-navigation.png)
+
+3. In the project navigation, open **Testing tool** (the app project page).
+4. If issue types are not ready, you will see onboarding instead of Requirements / Test design. Continue with [Make a project TMS-ready](./make-project-tms-ready.md).
+5. When types are ready, click **Launch Testing tool For Jira** (or you land directly in the hub).
+
+![Testing tool hub on Requirements with Create requirement](./media/install-and-open--hub-requirements.png)
 
 From the hub you can open **Requirements**, **Test design**, **Test execution**, and **Apps** (catalog; CI setup from an app’s **Setup** action). The toolbar also has a CI push **bell**, background job progress, Help (opens the agent when Rovo is on), and **More** for Excel import/export.
 
@@ -28,7 +34,7 @@ Install alone does not open the agent. Use [Find and open Testing tool](../ask-t
 ## FAQ
 
 **I installed the app but I do not see Testing tool.**  
-You may be in a project the app does not extend, or you need to refresh the project. Confirm the app is installed for Jira on this site, then reopen the project.
+It may not be pinned on this project yet. Use **+** → **Apps** → **Testing tool** → **Add to navigation**. If it is not in that menu, confirm the app is installed for Jira on this site, then reopen the project.
 
 **I see Testing tool but no Ask CTA.**  
 Rovo is off on the site, or you are on a screen without a CTA. Use Rovo Chat and pick **Testing Agent**, or the Help icon when it is shown.
