@@ -4,6 +4,20 @@ title: Start here
 
 This guide is the knowledge base for **Testing tool**. Publish it to Confluence and attach the folder as knowledge on **Testing tool** so people asking “how do I manage tests?” land on the right section.
 
+## Highlights
+
+![Break down work with QA checklists — faster, lighter, and more visible than subtasks](./media/highlight-1-qa-checklist.png)
+
+**[QA Checklist](./work-in-jira/see-coverage.md)** — break down work on the issue with a shared checklist for QA and Dev.
+
+![Jira-native Test Management — plan, track, and release with confidence across DevOps workflows, powered by AI](./media/highlight-2-test-case-management.png)
+
+**[Test Case Management](./work-in-jira/index.md)** — plan, track, and release in Jira with requirements, design, and cycles.
+
+![Ready-to-go integrations with testing frameworks — Playwright, Mocha, Jest, Cypress, Vitest, WebdriverIO](./media/highlight-3-testing-framework-integrations.png)
+
+**[Testing framework integrations](./settings-and-integrations/publish-results-from-a-test-framework.md)** — pre-built reporters and live sync so CI results land in Jira.
+
 ## How this guide is organized
 
 Pages are nested under four section hubs. **Start here**, **Glossary**, and **Troubleshooting** stay at the root so Testing tool and first-time readers find them immediately.
