@@ -1,12 +1,97 @@
-title: Testing tool
+# https://mmistakes.github.io/minimal-mistakes/
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
+minimal_mistakes_skin: "air"
+
+locale: "en-US"
+title: "Testing tool"
+title_separator: "-"
+subtitle: "User guide"
+name: "AI Testing Tool"
 description: >-
   Reduce testing effort in Jira, visible to QA and Dev. Rovo drafts, you confirm,
   CI lands in Jira.
-logo: /assets/img/logo.png
-theme: jekyll-theme-minimal
+url: "https://ai-testing-tool.github.io"
+baseurl: ""
+repository: "ai-testing-tool/ai-testing-tool.github.io"
+logo: "/assets/img/logo.png"
+teaser: "/assets/img/logo.png"
+og_image: "/assets/img/logo.png"
+
+search: true
+search_full_content: true
+search_provider: lunr
+
+breadcrumbs: true
+words_per_minute: 200
+
+atom_feed:
+  hide: true
+
+author:
+  name: "AI Testing Tool"
+  avatar: "/assets/img/logo.png"
+  bio: "Jira-native test management — visible to QA and Dev."
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ai-testing-tool"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ai-testing-tool"
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      toc: true
+      toc_sticky: true
+      toc_label: "On this page"
+      toc_icon: "cog"
+      sidebar:
+        nav: "docs"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  toc_levels: 1..3
+
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
   - jekyll-relative-links
+
 relative_links:
   enabled: true
   collections: true
-markdown: kramdown
+
+include:
+  - _pages
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - .gitignore
+  - .idea
+
+sass:
+  style: compressed

@@ -1,0 +1,81 @@
+# Main masthead links
+main:
+  - title: "Start here"
+    url: /
+  - title: "Set up"
+    url: /setup/
+  - title: "Work in Jira"
+    url: /work-in-jira/
+  - title: "Integrations"
+    url: /settings-and-integrations/
+  - title: "Glossary"
+    url: /glossary/
+
+# Left sidebar (docs)
+docs:
+  - title: "Start"
+    children:
+      - title: "Start here"
+        url: /
+      - title: "Troubleshooting"
+        url: /troubleshooting/
+      - title: "Glossary"
+        url: /glossary/
+  - title: "Set up Testing tool"
+    children:
+      - title: "Overview"
+        url: /setup/
+      - title: "What is Testing tool"
+        url: /setup/what-is-testing-tool/
+      - title: "Install and open"
+        url: /setup/install-and-open/
+      - title: "Make a project TMS-ready"
+        url: /setup/make-project-tms-ready/
+      - title: "Permissions, credits, and limits"
+        url: /setup/permissions-credits-limits/
+  - title: "Ask Testing tool"
+    children:
+      - title: "Overview"
+        url: /ask-testing-tool/
+      - title: "Find and open Testing tool"
+        url: /ask-testing-tool/find-and-open/
+  - title: "Work in Jira"
+    children:
+      - title: "Overview"
+        url: /work-in-jira/
+      - title: "Manage requirements"
+        url: /work-in-jira/manage-requirements/
+      - title: "Design a TestCase"
+        url: /work-in-jira/design-a-testcase/
+      - title: "Organize suites"
+        url: /work-in-jira/organize-suites/
+      - title: "Run a test cycle"
+        url: /work-in-jira/run-a-test-cycle/
+      - title: "Use Test Pad"
+        url: /work-in-jira/use-test-pad/
+      - title: "TestCase issue panel"
+        url: /work-in-jira/testcase-issue-panel/
+      - title: "TestExecution issue panel"
+        url: /work-in-jira/testexecution-issue-panel/
+      - title: "See coverage"
+        url: /work-in-jira/see-coverage/
+      - title: "Import and export"
+        url: /work-in-jira/import-and-export/
+  - title: "Settings and integrations"
+    children:
+      - title: "Overview"
+        url: /settings-and-integrations/
+      - title: "Apps catalog"
+        url: /settings-and-integrations/apps-catalog/
+      - title: "CI ingest URL and token"
+        url: /settings-and-integrations/ci-ingest-url-and-token/
+      - title: "CI push notifications"
+        url: /settings-and-integrations/ci-push-notifications/
+      - title: "README sync status badge"
+        url: /settings-and-integrations/readme-sync-status-badge/
+      - title: "Publish results from CI"
+        url: /settings-and-integrations/publish-results-from-ci/
+      - title: "Publish from a test framework"
+        url: /settings-and-integrations/publish-results-from-a-test-framework/
+      - title: "Cursor, Copilot, or Claude"
+        url: /settings-and-integrations/cursor-copilot-claude/

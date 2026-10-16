@@ -2,7 +2,13 @@
 
 Public user guide for **Testing tool** (Marketplace: AI Testing Tool), published at [https://ai-testing-tool.github.io/](https://ai-testing-tool.github.io/).
 
-GitHub Pages publishes the **`docs/`** folder on `main` with the [Minimal](https://github.com/pages-themes/minimal) Jekyll theme. Site config and logo live under `docs/` (`_config.yml`, `assets/img/logo.png`).
+GitHub Pages publishes the **`docs/`** folder on `main` with the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) Jekyll theme (`remote_theme`). Site chrome lives under `docs/`:
+
+- `_config.yml` — theme + site settings
+- `_data/navigation.yml` — masthead + sidebar
+- `assets/img/logo.png` — masthead logo
+
+Guide markdown is synced from `qanalyzer-app/docs/user-guide/` (do not edit guide pages here long-term).
 
 ## Preview locally
 
@@ -15,4 +21,5 @@ Open http://127.0.0.1:4000/
 
 ## Publishing
 
-Update content under `docs/`, then commit and push to `main` to publish.
+1. From `qanalyzer-app`: `npm run docs:sync-github-pages -- --apply`
+2. Commit and push this repo’s `main` to publish.
