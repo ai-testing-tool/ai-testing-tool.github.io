@@ -1,0 +1,47 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+/* Brand colors from Testing tool highlights / logo */
+$brand-blue: #0434ca;
+$brand-blue-bright: #1868db;
+$brand-yellow: #ffc400;
+
+$background-color: #f5f7fb;
+$text-color: #1a1f36;
+$muted-text-color: #4a5168;
+$primary-color: $brand-blue;
+$border-color: mix(#fff, $muted-text-color, 78%);
+$footer-background-color: $brand-blue;
+$link-color: $brand-blue-bright;
+$link-color-hover: mix(#000, $brand-blue-bright, 18%);
+$masthead-link-color: $text-color;
+$masthead-link-color-hover: $brand-blue;
+$navicon-link-color-hover: mix(#fff, $text-color, 80%);
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Soft brand tint on masthead + active nav */
+.masthead {
+  border-bottom: 3px solid $brand-blue;
+}
+
+.toc .nav__title {
+  background: $brand-blue;
+}
+
+a.btn,
+.btn {
+  &--primary {
+    background-color: $brand-blue;
+    color: #fff !important;
+
+    &:hover {
+      background-color: mix(#000, $brand-blue, 12%);
+    }
+  }
+}
