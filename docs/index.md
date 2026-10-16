@@ -6,17 +6,10 @@ This guide is the knowledge base for **Testing tool**. Publish it to Confluence 
 
 ## Highlights
 
-![Break down work with QA checklists — faster, lighter, and more visible than subtasks](./media/highlight-1-qa-checklist.png)
-
-**[QA Checklist](./work-in-jira/see-coverage.md)** — break down work on the issue with a shared checklist for QA and Dev.
-
-![Jira-native Test Management — plan, track, and release with confidence across DevOps workflows, powered by AI](./media/highlight-2-test-case-management.png)
-
-**[Test Case Management](./work-in-jira/index.md)** — plan, track, and release in Jira with requirements, design, and cycles.
-
-![Ready-to-go integrations with testing frameworks — Playwright, Mocha, Jest, Cypress, Vitest, WebdriverIO](./media/highlight-3-testing-framework-integrations.png)
-
-**[Testing framework integrations](./settings-and-integrations/publish-results-from-a-test-framework.md)** — pre-built reporters and live sync so CI results land in Jira.
+| QA Checklist | Test Case Management | Testing framework integrations |
+| :---: | :---: | :---: |
+| ![Break down work with QA checklists — faster, lighter, and more visible than subtasks](./media/highlight-1-qa-checklist.png) | ![Jira-native Test Management — plan, track, and release with confidence across DevOps workflows, powered by AI](./media/highlight-2-test-case-management.png) | ![Ready-to-go integrations with testing frameworks — Playwright, Mocha, Jest, Cypress, Vitest, WebdriverIO](./media/highlight-3-testing-framework-integrations.png) |
+| **[See coverage](./work-in-jira/see-coverage.md)** — shared checklist for QA and Dev on the issue. | **[Work in Jira](./work-in-jira/index.md)** — plan, track, and release with requirements, design, and cycles. | **[Publish from a framework](./settings-and-integrations/publish-results-from-a-test-framework.md)** — pre-built reporters; CI results land in Jira. |
 
 ## How this guide is organized
 
