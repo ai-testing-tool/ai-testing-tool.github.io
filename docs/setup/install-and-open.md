@@ -6,7 +6,7 @@ A Jira admin installs this Forge app on the site. After install, each project op
 
 ## Install on the site
 
-1. A Jira admin installs the app from the Atlassian Marketplace (or from a private distribution link your vendor sent).
+1. A Jira admin installs the app from the [Atlassian Marketplace listing](https://marketplace.atlassian.com/apps/2615451138/testing-tool-for-jira?hosting=cloud&tab=overview) (or from a private distribution link your vendor sent).
 2. Approve the requested Jira permissions when prompted.
 3. Confirm the app appears under **Apps** / **Manage apps** on the site.
 

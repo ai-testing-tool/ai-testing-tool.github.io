@@ -4,12 +4,14 @@ title: Start here
 
 This guide is the knowledge base for **Testing tool**. Publish it to Confluence and attach the folder as knowledge on **Testing tool** so people asking “how do I manage tests?” land on the right section.
 
+**Not installed yet?** → **[Try Testing Tool for Jira free on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/2615451138/testing-tool-for-jira?hosting=cloud&tab=overview)** — then [Install and open Testing tool](./setup/install-and-open.md).
+
 ## Highlights
 
-| QA Checklist | Test Case Management | Testing framework integrations |
-| :---: | :---: | :---: |
+|                                                         QA Checklist                                                          |                                                                      Test Case Management                                                                      |                                                                   Testing framework integrations                                                                    |
+| :---------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | ![Break down work with QA checklists — faster, lighter, and more visible than subtasks](./media/highlight-1-qa-checklist.png) | ![Jira-native Test Management — plan, track, and release with confidence across DevOps workflows, powered by AI](./media/highlight-2-test-case-management.png) | ![Ready-to-go integrations with testing frameworks — Playwright, Mocha, Jest, Cypress, Vitest, WebdriverIO](./media/highlight-3-testing-framework-integrations.png) |
-| **[See coverage](./work-in-jira/see-coverage.md)** — shared checklist for QA and Dev on the issue. | **[Work in Jira](./work-in-jira/index.md)** — plan, track, and release with requirements, design, and cycles. | **[Publish from a framework](./settings-and-integrations/publish-results-from-a-test-framework.md)** — pre-built reporters; CI results land in Jira. |
+|              **[See coverage](./work-in-jira/see-coverage.md)** — shared checklist for QA and Dev on the issue.               |                         **[Work in Jira](./work-in-jira/index.md)** — plan, track, and release with requirements, design, and cycles.                         |        **[Publish from a framework](./settings-and-integrations/publish-results-from-a-test-framework.md)** — pre-built reporters; CI results land in Jira.         |
 
 ## How this guide is organized
 
