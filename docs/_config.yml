@@ -24,6 +24,14 @@ search_provider: lunr
 breadcrumbs: true
 words_per_minute: 200
 
+# Google Analytics 4 (Minimal Mistakes loads this only when JEKYLL_ENV=production,
+# which GitHub Pages sets, so local `jekyll serve` sends no hits).
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-R45Z08T0GS"
+    anonymize_ip: true
+
 atom_feed:
   hide: true
 
